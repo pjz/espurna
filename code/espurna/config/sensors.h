@@ -367,6 +367,14 @@
 #define HLW8012_SEL_PIN                 5
 #endif
 
+#ifndef HLW8012_SEL_PULLUP
+#define HLW8012_SEL_PULLUP		SEL_PULLUP
+#endif
+
+#ifndef HLW8012_SEL_PULLUP
+#define HLW8012_SEL_PULLUP		SEL_PULLDOWN
+#endif
+
 #ifndef HLW8012_CF1_PIN
 #define HLW8012_CF1_PIN                 13
 #endif
